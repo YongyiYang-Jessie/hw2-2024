@@ -3,7 +3,6 @@ body {
     background-color: #000000;
     color: #ffffff; 
     margin: 20px;
-    margin-bottom: 0; 
 }
 
 h1 {
@@ -14,7 +13,7 @@ h1 {
 
 h2 {
     font-size: 30px;
-    color: #0D0D0D
+    color: #0D0D0D;
 }
 
 p {
@@ -24,7 +23,6 @@ p {
 
 img {
     width: 250px; 
-    height: auto; 
     display: block; 
     margin: 0 auto; 
     border: 10px dashed #ffffff; 
@@ -40,10 +38,11 @@ div {
     border-radius: 15px;
     margin-top: 15px;
     line-height: 2; 
+    padding: 10px;
   }
 
   .red {
-    background-color: #ff0000; 
+    background-color: #FF0000; 
     text-align: right;
     margin-left: 50px;
     border-bottom: 2px solid white;
@@ -51,7 +50,8 @@ div {
   }
 
   .blue {
-    background-color: #0000ff; 
+    background-color: #0000FF; 
+    color: #C4C4C4; 
     text-align: left;
     margin-right: 50px;
     border-right: 5px solid white;
@@ -60,17 +60,17 @@ div {
 
   /* Yellow class */
 .yellow {
-    background-color: #ffff00; /* Hexadecimal value for yellow */
+    background-color: #FFFF00; 
+    color: #707070;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid white;
     border-left: 5px solid white;
-    color: #707070; /* Color contrast for paragraph text */
+    border-bottom: 2px solid white; 
   }
   
   /* Green class */
   .green {
-    background-color: #00EB00; /* Hexadecimal value for green */
+    background-color: #00EB00; 
     text-align: left;
     margin-right: 50px;
     border-right: 5px solid white;
@@ -79,14 +79,15 @@ div {
   
   /* Default footer elements */
   footer {
-    background: linear-gradient(0deg, #000000, #0000ff 25%, #0066ff 70%, #000000);
+    background: linear-gradient(0deg, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
     border: 5px solid white;
   }
   
-  /* Paragraphs within the footer */
+ 
   footer p {
     font-size: 20px;
     text-align: right;
-    padding: 15px 15px 15px 0; /* Top, right, and bottom padding only */
+    padding: 15px 0 15px 15px; 
   }
+  
   
